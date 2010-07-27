@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity = "center"
+    >
+
+<Button android:id = "@+id/RecordButton"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:text = "Push Me"
+		android:gravity = "center"		
+/>
+
+<TextView android:id = "@+id/RecordText"
+		android:layout_width = "fill_parent"
+		android:layout_height = "wrap_content"
+		android:text = "Android Recording proof of concept!"
+		android:gravity = "center_horizontal"		
+/>
+
+
+</LinearLayout>
